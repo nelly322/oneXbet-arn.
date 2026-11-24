@@ -1,0 +1,1 @@
+export type EventOdds={id:string;league:string;home:string;away:string;startTime:string;homeOdd:number;drawOdd:number;awayOdd:number};export interface OddsProvider{getUpcoming():Promise<EventOdds[]>}export class ProviderNotConfigured implements OddsProvider{async getUpcoming(){return [] as EventOdds[]}}

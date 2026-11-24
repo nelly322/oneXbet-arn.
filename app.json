@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "oneXbet-arn",
+    "slug": "onexbet-arn",
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.onexbetarn.app"
+    }
+  }
+}
